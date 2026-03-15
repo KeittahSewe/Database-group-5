@@ -36,6 +36,7 @@ git clone https://github.com/KeittahSewe/Database-group-5.git
 cd Database-group-5
 
 2. Run SQL scripts in PostgreSQL:
+
 -- Create database schema
 \i sql_files/Peer_Tutor_platform-Create_Script.sql
 
