@@ -5,11 +5,11 @@ Project: **Peer Tutoring Platform**
 
 ---
 
-# Part B-1. Identification of Relations and Dependencies [3 marks]
+# Part B-1. Identification of Relations and Dependencies
 
 ## Initial Unnormalized Relation (UNF)
 
-Based on the system requirements, the initial unnormalized relation is:
+According to the requirements of the Peer Tutoring Platform, the initial unnormalized relation might look as follows: 
 
 ```
 TutoringRecord(
@@ -49,11 +49,13 @@ AdminID → AdminName, AdminEmail
 
 ## Step 1: First Normal Form (1NF)
 
-Requirements of **1NF**:
+**1NF** requires:
 
-- Remove repeating groups
-- Ensure attributes are atomic
-- Remove multivalued attributes
+- We remove repeating groups
+- we ensure attributes are atomic
+- we remove multivalued attributes
+
+Each row must be atomic: no repeating groups 
 
 ### Transformations Performed
 
@@ -84,10 +86,13 @@ Admin(AdminID, AdminName, AdminEmail)
 
 ## Step 2: Second Normal Form (2NF)
 
-**2NF requirement:**  
+**2NF requires:**  
 No partial dependencies.
 
 Analysis:
+We have already ensured that all non-composite keys are simple attributes: no partial dependencies. 
+
+We have already ensured that all non-key attributes are fully functionally dependent on the primary key: no partial dependencies. 
 
 - Each table has a **single primary key**
 - All attributes depend fully on the primary key
@@ -102,7 +107,9 @@ All relations satisfy **Second Normal Form (2NF)**.
 ## Step 3: Third Normal Form (3NF)
 
 **3NF requirement:**  
-Remove **transitive dependencies**.
+Remove transitive dependencies.
+
+We have already ensured that non-key attributes depend only on the primary key: no non-transitive dependencies. 
 
 | Table | Dependency Analysis |
 |------|------|
@@ -119,7 +126,7 @@ All relations satisfy **Third Normal Form (3NF)**.
 
 ---
 
-# Part B-3. Final Relations in 3NF [3 marks]
+# Part B-3. Final Relations in 3NF
 
 | Table | Attributes |
 |------|------|
