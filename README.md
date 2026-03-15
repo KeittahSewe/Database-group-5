@@ -13,7 +13,7 @@
 5. 166227 Jack Spencer Odisa  
 
 **Project SDG**
-SDG 4 - Quality Education
+4 - Quality Education
 
 Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.
 
