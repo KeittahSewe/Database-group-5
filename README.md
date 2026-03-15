@@ -32,6 +32,7 @@ This platform facilitates peer tutoring by allowing students to register, track 
 1. Clone the repository:
 
 git clone https://github.com/KeittahSewe/Database-group-5.git
+
 cd Database-group-5
 
 2. Run SQL scripts in PostgreSQL:
