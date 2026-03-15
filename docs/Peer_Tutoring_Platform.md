@@ -4,17 +4,7 @@
 
 | System | Peer Tutoring Platform |
 | :---- | :---- |
-| **Group number and members:** | Group 5: 
-
-08331 Thomas Asamba 
-
-224474 Abigail Githeci 
-
-151426 Keittah Oyunga 
-
-226076 Mumbya Lubamba Gloria 
-
-166227 Jack Spencer Odisa  |
+| **Group number and members:** | Group 5: 08331 Thomas Asamba  224474 Abigail Githeci  151426 Keittah Oyunga  226076 Mumbya Lubamba Gloria  166227 Jack Spencer Odisa  |
 
 # PART A: PROJECT OVERVIEW
 
