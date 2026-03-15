@@ -95,7 +95,7 @@ Analysis:
 
 Therefore:
 
-✅ All relations satisfy **Second Normal Form (2NF)**.
+All relations satisfy **Second Normal Form (2NF)**.
 
 ---
 
@@ -114,7 +114,7 @@ Remove **transitive dependencies**.
 
 Therefore:
 
-✅ No transitive dependencies exist.  
+No transitive dependencies exist.  
 All relations satisfy **Third Normal Form (3NF)**.
 
 ---
