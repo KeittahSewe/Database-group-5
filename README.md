@@ -17,7 +17,7 @@
 
 Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.
 
-## BProject Overview
+## Project Overview
 The system is a **Peer Tutoring Platform**, a web-based, database-driven application that connects students who need academic help with qualified peer tutors within their institution.
 
 This platform facilitates peer tutoring by allowing students to register, track their progress, and interact with tutors. The database supports:
